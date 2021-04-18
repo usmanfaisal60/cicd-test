@@ -28,3 +28,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             pwd
+            cd /
+            ls -a
